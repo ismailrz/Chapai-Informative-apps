@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sonamosjid"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center"
+            android:scrollbars="vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <DatePicker
+        android:visibility="gone"
+        android:id="@+id/date_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></DatePicker>
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:id="@+id/today_txt"
+        android:layout_marginRight="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_gravity="right"
+        android:text="Today: "
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_about"
+        android:text="চাঁপাইনবাবগঞ্জ জেলা"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_geographic_area"
+        android:text="ভৌগোলিক সীমানা"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+            <Button
+        android:id="@+id/btn_namkoron"
+        android:text="নামকরণ"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_eastPakistan"
+        android:text="পূর্ব পাকিস্তান ও বাংলাদেশ যুগ"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_administration"
+        android:text="প্রশাসনিক এলাকাসমূহ"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_persons"
+        android:text="কৃতি ব্যক্তিত্ব"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_place"
+        android:text="চিত্তাকর্ষক স্থান"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_language"
+        android:text="ভাষা"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+            <Button
+        android:id="@+id/btn_education"
+        android:text="শিক্ষা"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+           <Button
+        android:id="@+id/btn_religious"
+        android:text="ধর্ম"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+           <Button
+        android:id="@+id/btn_gomvira"
+        android:text="গম্ভীরা"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+           <Button
+        android:id="@+id/btn_tevagaAndolon"
+        android:text="তেভাগা আন্দোলন"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+           <Button
+        android:id="@+id/btn_economic"
+        android:text="অর্থনীতি"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+            <Button
+        android:layout_marginBottom="70dp"
+        android:id="@+id/btn_mango"
+        android:text="আম"
+        android:background="#1e6104"
+        android:textColor="#fff"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

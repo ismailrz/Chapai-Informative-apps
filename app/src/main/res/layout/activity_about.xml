@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#adf"
+    android:orientation="vertical"
+
+    tools:context=".About">
+
+
+    <LinearLayout
+        android:background="#adf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ek_nojor"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/ek_nojore" />
+
+        <Button
+            android:id="@+id/btn_potvumi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/potvumi" />
+
+        <Button
+            android:id="@+id/btn_upzila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upzila" />
+
+
+        <Button
+            android:id="@+id/btn_union"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/union"
+            />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_mancitro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mancitro" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="578dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:scrollbars="vertical">
+
+                <fragment
+                    android:id="@+id/frg"
+                    android:name="com.example.mrinalkantiray.nilphamri.BlankFragment2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
